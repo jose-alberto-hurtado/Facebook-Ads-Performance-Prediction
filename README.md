@@ -1,53 +1,88 @@
-# Facebook-Ads-Performance-Prediction
-Análisis del desempeño de campañas publicitarias en Facebook Ads, explorando la correlación entre visualizaciones y likes, y aplicando modelos de Machine Learning para predicciones.
+📢 Análisis de Campañas de Facebook Ads y Predicción de Interacciones
+🌍 Introducción
+Facebook Ads es una plataforma clave en la publicidad digital, permitiendo a las marcas llegar a audiencias específicas. Sin embargo, comprender el impacto de las visualizaciones en la generación de "likes" es crucial para optimizar estrategias de marketing.
 
-Este proyecto tiene como objetivo analizar el desempeño de campañas publicitarias en **Facebook Ads** y predecir el impacto de las visualizaciones en la cantidad de "likes". Se busca identificar patrones en los datos y mejorar la precisión de los modelos de predicción.
+Este proyecto tiene como objetivo analizar el desempeño de campañas publicitarias en Facebook Ads, explorando la relación entre visualizaciones (views) y likes. Además, se aplican modelos de Machine Learning para predecir la interacción de los usuarios y optimizar futuras campañas.
 
----
+📊 Dataset y Diccionario de Datos
+El conjunto de datos contiene información sobre las interacciones de anuncios en Facebook Ads, específicamente la relación entre views (visualizaciones) y likes (me gusta).
 
-## 📌 1. Descripción del Proyecto
+📂 Datos disponibles en el proyecto:
 
-En la era digital, las campañas publicitarias en redes sociales como **Facebook Ads** son clave para las marcas. Sin embargo, comprender el impacto de las visualizaciones en la generación de "likes" es fundamental para optimizar estrategias de marketing.
+facebook_ads_data.csv: Contiene información sobre visualizaciones y likes en campañas publicitarias.
+Cada columna representa una métrica clave utilizada para el análisis y la predicción de engagement en anuncios de Facebook.
 
-Este estudio analiza la relación entre **visualizaciones (views)** y **likes**, identificando patrones y utilizando modelos de Machine Learning para hacer predicciones y optimizar futuras campañas.
+📂 Archivos Incluidos
+Facebook_Ads_Performance_Prediction.ipynb: Jupyter Notebook con todo el análisis y modelado.
+facebook_ads_data.csv: Dataset utilizado para el estudio.
+README.md: Documentación del proyecto.
 
----
+🤖 Tecnologías y Herramientas Utilizadas
+Python: Lenguaje principal para el análisis.
+Pandas: Manipulación y limpieza de datos.
+Matplotlib & Seaborn: Visualización de datos.
+Scikit-Learn: Modelado de Machine Learning.
+XGBoost: Algoritmo avanzado para predicción.
+Jupyter Notebook: Desarrollo y documentación del proyecto.
 
-## 🎯 2. Objetivos del Proyecto
+🏗️ Estructura del Proyecto
+1️⃣ Carga y Limpieza de Datos
+Importación del dataset y exploración de datos.
+Conversión de valores numéricos.
+Eliminación de valores nulos y datos inconsistentes.
+2️⃣ Análisis Exploratorio de Datos (EDA)
+Histogramas para entender la distribución de views y likes.
+Matriz de correlación para evaluar relaciones entre variables.
+3️⃣ Creación y Entrenamiento de Modelos
+División de datos en entrenamiento y prueba.
+Escalado de datos con StandardScaler.
+Modelos entrenados:
+Random Forest: Modelo base para predicción.
+XGBoost: Modelo optimizado para mejorar precisión.
+4️⃣ Optimización de Modelos
+Ajuste de hiperparámetros con GridSearchCV.
+Comparación de métricas de rendimiento (MAE, R²).
 
-✅ Evaluar la correlación entre **views** y **likes**.  
-✅ Desarrollar modelos de Machine Learning para predecir **likes**.  
-✅ Identificar qué modelo ofrece la mejor precisión.  
-✅ Generar recomendaciones para optimizar la inversión en publicidad digital.  
+🎨 Visualización de Resultados
+🔎 Principales hallazgos:
+Correlación entre views y likes: Se encontró una correlación baja (-0.16), lo que sugiere que otros factores podrían influir en la interacción.
+Random Forest vs. XGBoost: Random Forest tuvo mejor desempeño en términos de error absoluto medio (MAE), pero XGBoost podría mejorar con más ajustes.
+Optimización con hiperparámetros: Se identificaron valores óptimos para mejorar la predicción.
+🚀 Conclusiones y Recomendaciones
+✅ Principales conclusiones:
 
----
+El número de visualizaciones (views) no siempre se traduce en más likes. Otras métricas como el tiempo de visualización y la segmentación de audiencia pueden influir en la interacción.
+Random Forest ofrece mejor rendimiento que XGBoost, aunque este último podría optimizarse con más datos y ajustes.
+Las campañas publicitarias pueden mejorarse con segmentación más detallada y ajustes en el contenido visual.
+🔹 Recomendaciones para futuros estudios:
 
-## 📂 3. Estructura del Proyecto
+Explorar más variables como CTR (Click-Through Rate) y tiempo de visualización.
+Probar modelos más avanzados como LightGBM o redes neuronales.
+Evaluar diferentes estrategias de segmentación para mejorar el engagement.
+📑 Reproducir el Análisis
+Para ejecutar este análisis en tu entorno local, sigue estos pasos:
 
-🔹 **Carga y limpieza de datos**: Procesamiento del dataset de Facebook Ads.  
-🔹 **Análisis Exploratorio de Datos (EDA)**: Visualización de histogramas y matriz de correlación.  
-🔹 **Entrenamiento de Modelos**: Se probaron **Random Forest** y **XGBoost**.  
-🔹 **Optimización de Modelos**: Ajuste de hiperparámetros con **GridSearchCV**.  
-🔹 **Conclusiones**: Resumen de los hallazgos y recomendaciones.  
+1️⃣ Clonar este repositorio:
 
----
+bash
+Copiar
+Editar
+git clone https://github.com/jose-alberto-hurtado/Facebook-Ads-Performance-Prediction.git
+2️⃣ Instalar dependencias:
 
-## 🔧 4. Tecnologías y Herramientas Utilizadas
+bash
+Copiar
+Editar
+pip install pandas matplotlib seaborn scikit-learn xgboost
+3️⃣ Abrir el archivo Jupyter Notebook:
 
-📌 **Lenguajes y Librerías**:
-- **Python**: `pandas`, `numpy`, `matplotlib`, `seaborn`
-- **Machine Learning**: `sklearn`, `XGBoost`
+bash
+Copiar
+Editar
+jupyter notebook Facebook_Ads_Performance_Prediction.ipynb
+👥 Contacto
+📧 Email: josealberto1829@gmail.com
+🐍 GitHub: GitHub
+💼 LinkedIn: LinkedIn
 
-📌 **Entorno de Desarrollo**:
-- **Google Colab**
-- **Jupyter Notebook**
-- **GitHub**
-
----
-
-## 🛠️ 5. Instalación y Uso
-
-### 📥 Clonar el Repositorio:
-```sh
-git clone https://github.com/jose-alberto-hurtado/Analisis-de-datos.git
-cd Analisis-de-datos
+🌟 Si te gustó este proyecto, dale una estrella en GitHub! ⭐
