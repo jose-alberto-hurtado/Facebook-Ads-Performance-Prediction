@@ -8,7 +8,7 @@ Este proyecto tiene como objetivo analizar el desempeño de campañas publicitar
 ## 📊 Dataset y Diccionario de Datos
 El conjunto de datos contiene información sobre las interacciones de anuncios en Facebook Ads, específicamente la relación entre views (visualizaciones) y likes (me gusta).
 
-### 📂 Datos disponibles en el proyecto:
+#### 📂 Datos disponibles en el proyecto:
 
 facebook_ads_data.csv: Contiene información sobre visualizaciones y likes en campañas publicitarias.
 Cada columna representa una métrica clave utilizada para el análisis y la predicción de engagement en anuncios de Facebook.
@@ -27,31 +27,32 @@ XGBoost: Algoritmo avanzado para predicción.
 Jupyter Notebook: Desarrollo y documentación del proyecto.
 
 ## 🏗️ Estructura del Proyecto
-### 1️⃣ Carga y Limpieza de Datos
+
+#### 1️⃣ Carga y Limpieza de Datos
 Importación del dataset y exploración de datos.
 Conversión de valores numéricos.
 Eliminación de valores nulos y datos inconsistentes.
-### 2️⃣ Análisis Exploratorio de Datos (EDA)
+#### 2️⃣ Análisis Exploratorio de Datos (EDA)
 Histogramas para entender la distribución de views y likes.
 Matriz de correlación para evaluar relaciones entre variables.
-### 3️⃣ Creación y Entrenamiento de Modelos
+#### 3️⃣ Creación y Entrenamiento de Modelos
 División de datos en entrenamiento y prueba.
 Escalado de datos con StandardScaler.
 Modelos entrenados:
 Random Forest: Modelo base para predicción.
 XGBoost: Modelo optimizado para mejorar precisión.
-### 4️⃣ Optimización de Modelos
+#### 4️⃣ Optimización de Modelos
 Ajuste de hiperparámetros con GridSearchCV.
 Comparación de métricas de rendimiento (MAE, R²).
 
 ## 🎨 Visualización de Resultados
-### 🔎 Principales hallazgos:
+#### 🔎 Principales hallazgos:
 Correlación entre views y likes: Se encontró una correlación baja (-0.16), lo que sugiere que otros factores podrían influir en la interacción.
 Random Forest vs. XGBoost: Random Forest tuvo mejor desempeño en términos de error absoluto medio (MAE), pero XGBoost podría mejorar con más ajustes.
 Optimización con hiperparámetros: Se identificaron valores óptimos para mejorar la predicción.
 
 ## 🚀 Conclusiones y Recomendaciones
-### ✅ Principales conclusiones:
+#### ✅ Principales conclusiones:
 
 El número de visualizaciones (views) no siempre se traduce en más likes. Otras métricas como el tiempo de visualización y la segmentación de audiencia pueden influir en la interacción.
 Random Forest ofrece mejor rendimiento que XGBoost, aunque este último podría optimizarse con más datos y ajustes.
@@ -65,14 +66,14 @@ Evaluar diferentes estrategias de segmentación para mejorar el engagement.
 ## 📑 Reproducir el Análisis
 Para ejecutar este análisis en tu entorno local, sigue estos pasos:
 
-### 1️⃣ Clonar este repositorio:
+#### 1️⃣ Clonar este repositorio:
 
 bash
 Copiar
 Editar
 git clone https://github.com/jose-alberto-hurtado/Facebook-Ads-Performance-Prediction.git
 
-### 2️⃣ Instalar dependencias:
+#### 2️⃣ Instalar dependencias:
 
 bash
 Copiar
