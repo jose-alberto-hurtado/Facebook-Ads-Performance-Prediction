@@ -45,7 +45,7 @@ Ajuste de hiperparámetros con GridSearchCV.
 Comparación de métricas de rendimiento (MAE, R²).
 
 ## 🎨 Visualización de Resultados
-###🔎 Principales hallazgos:
+### 🔎 Principales hallazgos:
 Correlación entre views y likes: Se encontró una correlación baja (-0.16), lo que sugiere que otros factores podrían influir en la interacción.
 Random Forest vs. XGBoost: Random Forest tuvo mejor desempeño en términos de error absoluto medio (MAE), pero XGBoost podría mejorar con más ajustes.
 Optimización con hiperparámetros: Se identificaron valores óptimos para mejorar la predicción.
@@ -87,8 +87,11 @@ Editar
 jupyter notebook Facebook_Ads_Performance_Prediction.ipynb
 
 ## 👥 Contacto
+
 📧 Email: josealberto1829@gmail.com
+
 🐍 GitHub: [GitHub](https://github.com/jose-alberto-hurtado)  
+
 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/josé-alberto-hurtado-echeverría-77910a319/)
 
 ### 🌟 Si te gustó este proyecto, dale una estrella en GitHub! ⭐
