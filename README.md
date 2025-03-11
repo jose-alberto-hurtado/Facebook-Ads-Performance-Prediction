@@ -69,22 +69,19 @@ Para ejecutar este análisis en tu entorno local, sigue estos pasos:
 #### 1️⃣ Clonar este repositorio:
 
 bash
-Copiar
-Editar
+
 git clone https://github.com/jose-alberto-hurtado/Facebook-Ads-Performance-Prediction.git
 
 #### 2️⃣ Instalar dependencias:
 
 bash
-Copiar
-Editar
+
 pip install pandas matplotlib seaborn scikit-learn xgboost
 
 #### 3️⃣ Abrir el archivo Jupyter Notebook:
 
 bash
-Copiar
-Editar
+
 jupyter notebook Facebook_Ads_Performance_Prediction.ipynb
 
 ## 👥 Contacto
