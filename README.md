@@ -79,7 +79,7 @@ Copiar
 Editar
 pip install pandas matplotlib seaborn scikit-learn xgboost
 
-### 3️⃣ Abrir el archivo Jupyter Notebook:
+#### 3️⃣ Abrir el archivo Jupyter Notebook:
 
 bash
 Copiar
