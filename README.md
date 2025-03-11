@@ -1,5 +1,6 @@
-📢 Análisis de Campañas de Facebook Ads y Predicción de Interacciones
-🌍 Introducción
+# 📢 Análisis de Campañas de Facebook Ads y Predicción de Interacciones
+
+## 🌍 Introducción
 Facebook Ads es una plataforma clave en la publicidad digital, permitiendo a las marcas llegar a audiencias específicas. Sin embargo, comprender el impacto de las visualizaciones en la generación de "likes" es crucial para optimizar estrategias de marketing.
 
 Este proyecto tiene como objetivo analizar el desempeño de campañas publicitarias en Facebook Ads, explorando la relación entre visualizaciones (views) y likes. Además, se aplican modelos de Machine Learning para predecir la interacción de los usuarios y optimizar futuras campañas.
